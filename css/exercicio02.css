@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(#febe01, #000);
+    background-attachment: fixed;
+   
+  }
+  
+  h1{
+    font-size:70px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+  }
+
+
+  hr{
+    background: #000;
+    height: 10px;
+    width: 50%;
+    border: none;
+  }
+
+
+  .caixa {
+    background-color:#000000;
+    border-radius:5px;
+    margin:20px auto;
+    padding:30px;
+    width: 50%;
+    
+  }
+
+   .caixa h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+ }
+
+ .caixa p{
+    color: #b2b2b2;
+    font-size: 20px;
+    margin: 20 auto;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .caixa a{
+    background: #febe01;
+    color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid transparent;
+ }
+
+ .caixa a:hover{
+  background: #000;
+  color: #febe01;
+  border: 1px solid #febe01 ;
+  
+ }
+
+ .caixa h2 span{
+    color: #febe01;
+    font-size:  35px;
+    font-weight: 700 ;
+
+ }
+ .caixa p span{
+color: #febe01;
+ font-size: 20px;
+ font-weight: 700px;
+ }
+
+
+
+ 
+  
+  

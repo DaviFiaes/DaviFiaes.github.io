@@ -1,0 +1,26 @@
+
+#pai{
+    background: lightpink;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.caixa{
+    background-color: lightgreen;
+    height: 200px;
+    
+}
+#caixa4{
+    background:red ;
+    color: black ;
+    font-weight:700;
+    grid-column: 1/4;
+    display: grid;
+    gap: 5px;
+    align-content: stretch;
+    gap: 5px;    
+}
+#caixa4 div{
+    background: yellow;
+}

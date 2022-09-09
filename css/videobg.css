@@ -1,0 +1,147 @@
+/* NORMALIZAÇÃO */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: crimson;
+}
+
+#videobg {
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  position: fixed;
+  right: auto;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+}
+.rodape {
+  width: 100%;
+  background: rgba(1, 1, 1, 0.617);
+  bottom: 0;
+  position: fixed;
+  padding: 20px; /*serve para engordaer a div */
+  text-align: center;
+}
+
+.rodape h1 {
+  color: #ccc;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rodape p {
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.rodape button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  background: red;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 2px auto;
+  transition: 0.5s;
+}
+.rodape button:hover {
+  background: rgba(0, 0, 0, 0.754);
+  color: red;
+  box-shadow: 3px 3px white;
+}
+
+/* NOTEBOOK */
+
+@media (max-width: 1400px) and (min-width: 1024px) {
+  .rodape {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.286);
+    bottom: 0;
+    position: fixed;
+    padding: 15px; /*serve para engordaer a div */
+    text-align: center;
+  }
+
+  .rodape h1 {
+    color: #ccc;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .rodape p {
+    color: white;
+    font-size: 0.9375rem;
+    font-family: sans-serif;
+    line-height: 1.25rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+  }
+}
+
+/*TABLET */
+
+@media (max-width: 1024px) and (min-width: 700px) {
+  .rodape {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.286);
+    bottom: 0;
+    position: fixed;
+    padding: 15px; /*serve para engordaer a div */
+    text-align: center;
+  }
+
+  .rodape h1 {
+    color: #ccc;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .rodape p {
+    color: white;
+    font-size: 0.9375rem;
+    font-family: sans-serif;
+    line-height: 1.25rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .rodape {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.286);
+    bottom: 0;
+    position: fixed;
+    padding: 10px; /*serve para engordaer a div */
+    text-align: center;
+  }
+
+  .rodape h1 {
+    color: #ccc;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .rodape p {
+    color: white;
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    line-height: 10px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
+}

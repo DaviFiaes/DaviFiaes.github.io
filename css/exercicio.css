@@ -1,0 +1,35 @@
+body {
+    /* background: linear-gradient(180deg, rgb(236, 95, 1), rgb(243, 239, 18)); */
+    background: url(/imagens/beackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ hr {
+    width: 60%;
+    background-color: green;
+    height: 15px;
+
+ }
+  
+  .videozinho, #fotozinha {
+
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+  footer {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+   /* margin: 40px 20px; */
+  }
