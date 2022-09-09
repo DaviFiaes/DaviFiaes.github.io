@@ -11,6 +11,11 @@ body {
   color: crimson;
 }
 
+span {
+  color: red;
+  font-weight: 600;
+}
+
 #videobg {
   min-width: 100%;
   min-height: 100%;
