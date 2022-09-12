@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "minhaFonte";
+  src: url(/arquivos/Homemade\ Sausage.ttf);
+}
 
 /* Desktop */
 
@@ -14,8 +18,8 @@ body {
 
 h1 {
   font-size: 3.75rem;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
+  font-family: "minhaFonte";
 }
 
 .polaroid img {
