@@ -7,7 +7,7 @@
 }
 
 body {
-  background: rgb(27, 27, 27);
+  background: rgb(149, 0, 0);
   margin-top: 10%;
 }
 
@@ -24,8 +24,8 @@ body {
 }
 
 hr {
-  height: 10px;
-  background: rgb(0, 0, 0);
+  height: 40px;
+  background: rgb(255, 255, 255);
 }
 
 .box {
@@ -38,10 +38,6 @@ hr {
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-around;
-}
-.box span {
-  color: rgb(255, 0, 0);
-  font-weight: 750;
 }
 
 .home {
