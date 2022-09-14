@@ -20,6 +20,7 @@ h1 {
   font-size: 3.75rem;
   text-align: center;
   font-family: "minhaFonte";
+  text-shadow: 1px 1px 3px rgba(255, 2, 2, 0.477);
 }
 
 .polaroid img {
